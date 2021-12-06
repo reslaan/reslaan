@@ -106,7 +106,8 @@ body {
   .card {
     background-color: var(--bg-color);
     width: 100%;
-    border-radius: 0;
+    height: 27rem;
+    border-radius: 2px;
     
     
     @media (max-width: 575px) {
@@ -117,8 +118,7 @@ body {
     &:hover {
       transform: scale(1.05);
      // box-shadow: 2px 1px 15px rgb(109, 104, 104);
-      outline:8px solid $primary  ;
-      outline-offset: 8px;
+      
       //background-image: linear-gradient(to bottom right, $primary, #212529);
     }
 
@@ -128,12 +128,17 @@ body {
       margin-top: 0.5rem;
       padding: 0.3rem;
       background-size: cover;
+    
       // border-radius: 10px;
     }
 
     p {
       color: $light;
       opacity: 0.7;
+      height: 5rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
     }
 
     a:hover {
