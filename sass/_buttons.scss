@@ -1,0 +1,21 @@
+.btn:focus,
+  .form-control:focus,
+  .btn:active
+  {
+    box-shadow: none;
+  }
+
+  .btn{
+      transition: all .3s;
+      &:hover{
+          transform: translateY(-.25rem);
+      }
+      &:link,
+      &:visited {
+        //  display: inline-block;
+        transition: all 0.5s;
+      }
+      &:active{
+          transform: translateY(.15rem);
+      }
+  }
