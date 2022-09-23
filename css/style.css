@@ -11002,6 +11002,15 @@ body i:hover {
   color: var(--heading-color);
 }
 
+.section {
+  transition: all 0.9s;
+}
+
+.section-hidden {
+  opacity: 0;
+  transform: translateY(8rem);
+}
+
 #header {
   transition: all 0.5s;
 }

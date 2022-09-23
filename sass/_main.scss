@@ -36,6 +36,14 @@ body {
   color: var(--heading-color);
 }
 
+.section{
+  transition: all .9s;
+}
+.section-hidden{
+  opacity: 0;
+  transform: translateY(8rem);
+}
+
 #header {
   transition: all 0.5s;
   nav {
